@@ -384,6 +384,9 @@
     <ClCompile Include="BarkingDog\2강\조세퍼스문제.cpp">
       <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
     </ClCompile>
+    <ClCompile Include="BarkingDog\1강\테스트.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
