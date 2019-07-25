@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기">
+      <UniqueIdentifier>{9d6a718e-d82d-42ed-88fe-8427bae0c0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기">
+      <UniqueIdentifier>{b1c10dd9-f8a3-45c2-b375-cc9b2f48d6c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\SWEA">
+      <UniqueIdentifier>{24c37913-d8d1-4727-af36-11c39176e093}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\SWEA\d3">
+      <UniqueIdentifier>{a8726cb8-ef95-402a-bdc5-7483aa0cce29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\그래프">
+      <UniqueIdentifier>{1edc8f3c-9554-449e-951b-6d300170192f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\기타">
+      <UniqueIdentifier>{36767838-d6ba-4d37-b43b-01543c05b6b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\내가못푼문제모음">
+      <UniqueIdentifier>{cdb17536-05e9-4d2c-8003-c8aef98bf9da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\단계별로 풀어보기">
+      <UniqueIdentifier>{5c16753c-fd41-4d10-bd12-167912f185eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\단계별로 풀어보기\1차원배열">
+      <UniqueIdentifier>{0eb805eb-06f5-4700-83eb-187d6c595ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\단계별로 풀어보기\규칙">
+      <UniqueIdentifier>{89142bf6-a496-4854-abd6-dfd7c117c2ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\삼성연습">
+      <UniqueIdentifier>{44c4a80b-2b07-4d52-ae07-74e0f388feab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\알고리즘기본연습">
+      <UniqueIdentifier>{bd490e70-2696-4ec3-8993-4a3ce330d161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\입출력연습">
+      <UniqueIdentifier>{5b9b4117-046b-4282-a67e-a6bd1504d273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019상반기\현대">
+      <UniqueIdentifier>{c24ad28f-a5cb-4532-8f53-41456c2dc084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\스터디">
+      <UniqueIdentifier>{e8600e3e-4d98-4301-b89b-670909b50616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\나머지연산">
+      <UniqueIdentifier>{c0c33bd1-af19-4787-a155-741795f17837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\입문용">
+      <UniqueIdentifier>{86e6cac3-ed98-4bf3-a4a3-353ee7e805da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\문자열처리">
+      <UniqueIdentifier>{9a21ca76-4d2d-49db-8fdb-e6a7fd4ef29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\해싱">
+      <UniqueIdentifier>{37b03bfa-1df5-420a-ac4e-3fd0668ed49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\while문">
+      <UniqueIdentifier>{6be14fe1-4879-4625-8e06-bb130c53bbdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\swea">
+      <UniqueIdentifier>{6bea8aa6-febc-4eda-8d67-7ce4a60fefbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\BarkingDog">
+      <UniqueIdentifier>{6b25f8e2-0437-463f-a398-9e6254a009a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\BarkingDog\1강">
+      <UniqueIdentifier>{a97c81a7-3fa7-4584-b5a6-647b377cbf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\BarkingDog\2강">
+      <UniqueIdentifier>{83eaf9bc-e215-4e3d-b2f2-50ada5642829}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="연결요소.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="미로탐색.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="단지번호붙이기.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="섬의개수.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="입출력연습.cpp">
+      <Filter>소스 파일\2019상반기\입출력연습</Filter>
+    </ClCompile>
+    <ClCompile Include="아스키코드.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳찾기.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="알파벳찾기다른사람코드.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열반복.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열반복C스타일풀이.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="단어공부.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="스택수열.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m%285%29.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(6).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(7).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(8).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(9).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(10).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(11).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="n과m(12).cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="DFS와BFS.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="숨바꼭질.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="인구이동.cpp">
+      <Filter>소스 파일\2019상반기\삼성연습</Filter>
+    </ClCompile>
+    <ClCompile Include="유기농배추.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="이모티콘.cpp">
+      <Filter>소스 파일\2019상반기\그래프</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇청소기.cpp">
+      <Filter>소스 파일\2019상반기\삼성연습</Filter>
+    </ClCompile>
+    <ClCompile Include="로봇청소기참고.cpp">
+      <Filter>소스 파일\2019상반기\삼성연습</Filter>
+    </ClCompile>
+    <ClCompile Include="나무재테크.cpp">
+      <Filter>소스 파일\2019상반기\삼성연습</Filter>
+    </ClCompile>
+    <ClCompile Include="설탕배달.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="세수.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="평균.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="더하기사이클.cpp">
+      <Filter>소스 파일\2019상반기\알고리즘기본연습</Filter>
+    </ClCompile>
+    <ClCompile Include="음계.cpp">
+      <Filter>소스 파일\2019상반기\단계별로 풀어보기\1차원배열</Filter>
+    </ClCompile>
+    <ClCompile Include="벌집.cpp">
+      <Filter>소스 파일\2019상반기\단계별로 풀어보기\규칙</Filter>
+    </ClCompile>
+    <ClCompile Include="분수찾기.cpp">
+      <Filter>소스 파일\2019상반기\단계별로 풀어보기\규칙</Filter>
+    </ClCompile>
+    <ClCompile Include="특이한자석.cpp">
+      <Filter>소스 파일\2019상반기\SWEA</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열압축해제.cpp">
+      <Filter>소스 파일\2019상반기\현대</Filter>
+    </ClCompile>
+    <ClCompile Include="1번.cpp">
+      <Filter>소스 파일\2019상반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="2번.cpp">
+      <Filter>소스 파일\2019상반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="5번.cpp">
+      <Filter>소스 파일\2019상반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="2019상반기삼성.cpp">
+      <Filter>소스 파일\2019상반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="괄호.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기6.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기7.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기8.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기9.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기5.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기12.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="별찍기11.cpp">
+      <Filter>소스 파일\2019상반기\내가못푼문제모음</Filter>
+    </ClCompile>
+    <ClCompile Include="합.cpp">
+      <Filter>소스 파일\2019상반기\SWEA\d3</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\Doubles.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\e계산.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\IBM빼기1.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\sqrtlogsin.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\TheHardestProblemEver.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\ToandFro.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\교수가된현우.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\디지털루트.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\싱기한네자리숫자.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\완전세제곱.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\이진수.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="입문용\파티가끝나고난뒤.cpp">
+      <Filter>소스 파일\2019하반기\입문용</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\돌그룹.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\두동전.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\말이되고픈원숭이.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\성곽.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\아이스크림.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\양.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\에너지모으기.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\이동하기.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\점프.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\점프게임.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\팰린드롬.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="스터디\포도주.cpp">
+      <Filter>소스 파일\2019하반기\스터디</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열처리\명령프롬프트.cpp">
+      <Filter>소스 파일\2019하반기\문자열처리</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열처리\방번호.cpp">
+      <Filter>소스 파일\2019하반기\문자열처리</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열처리\팰린드롬인지확인하기.cpp">
+      <Filter>소스 파일\2019하반기\문자열처리</Filter>
+    </ClCompile>
+    <ClCompile Include="나머지연산\사나운개.cpp">
+      <Filter>소스 파일\2019하반기\나머지연산</Filter>
+    </ClCompile>
+    <ClCompile Include="해싱\전화번호목롤.cpp">
+      <Filter>소스 파일\2019하반기\해싱</Filter>
+    </ClCompile>
+    <ClCompile Include="swea\Flatten.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="swea\원재의메모리복구.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="swea\햄버거다이어트.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="while문\A더하기B빼기4.cpp">
+      <Filter>소스 파일\2019하반기\while문</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\고양이.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\대표값2.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\세수정렬.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\숫자.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\윤년.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\주사위세개.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\최대값.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\카드뒤집기.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\핸드폰요금.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\홀수.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\strfry.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\개수세기.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\방배정.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\알파벳개수.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\에디터.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\2강\조세퍼스문제.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\2강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\1강\테스트.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\1강</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
