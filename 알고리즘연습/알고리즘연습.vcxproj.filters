@@ -258,6 +258,15 @@
     <ClCompile Include="BarkingDog\3강\데크_stl.cpp">
       <Filter>소스 파일\2019하반기\BarkingDog\3강</Filter>
     </ClCompile>
+    <ClCompile Include="BarkingDog\3강\스택수열.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\3강\회전하는큐.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\3강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\3강\ac.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\3강</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
