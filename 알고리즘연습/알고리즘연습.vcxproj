@@ -243,6 +243,7 @@
     <ClCompile Include="C++배우기1-50\주사위게임.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="C++배우기1-50\주사위게임2.cpp" />
     <ClCompile Include="C++배우기1-50\크냐.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
