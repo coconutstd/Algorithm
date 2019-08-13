@@ -270,6 +270,18 @@
     <ClCompile Include="C++배우기1-50\주사위게임2.cpp">
       <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
     </ClCompile>
+    <ClCompile Include="C++배우기1-50\Baseball.cpp">
+      <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
+    </ClCompile>
+    <ClCompile Include="C++배우기1-50\전자레인지.cpp">
+      <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
+    </ClCompile>
+    <ClCompile Include="C++배우기1-50\양조장.cpp">
+      <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
+    </ClCompile>
+    <ClCompile Include="C++배우기1-50\약수들의합.cpp">
+      <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
