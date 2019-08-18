@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\2019하반기\BarkingDog\3강">
       <UniqueIdentifier>{40ad2656-ebd6-4593-a767-510ae1e26d83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\기타">
+      <UniqueIdentifier>{c36dc7aa-ae64-4ed8-bc17-083658b2f4c0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -281,6 +284,9 @@
     </ClCompile>
     <ClCompile Include="C++배우기1-50\약수들의합.cpp">
       <Filter>소스 파일\2019하반기\c++배우기1-50</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\배열돌리기4.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
