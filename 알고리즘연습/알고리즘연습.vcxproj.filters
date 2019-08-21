@@ -55,6 +55,9 @@
     <Filter Include="소스 파일\2019하반기\기타">
       <UniqueIdentifier>{c36dc7aa-ae64-4ed8-bc17-083658b2f4c0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\BarkingDog\4강">
+      <UniqueIdentifier>{28d70599-f6e7-4146-b580-1c2b28752131}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -287,6 +290,15 @@
     </ClCompile>
     <ClCompile Include="기타\배열돌리기4.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\4강\쇠막대기.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\4강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\4강\괄호의값.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\4강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\4강\탑.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\4강</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
