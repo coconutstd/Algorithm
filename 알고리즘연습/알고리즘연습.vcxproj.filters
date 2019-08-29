@@ -312,6 +312,9 @@
     <ClCompile Include="BarkingDog\5강\영역구하기.cpp">
       <Filter>소스 파일\2019하반기\BarkingDog\5강</Filter>
     </ClCompile>
+    <ClCompile Include="BarkingDog\5강\나이트의이동.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\5강</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
