@@ -327,6 +327,9 @@
     <ClCompile Include="BarkingDog\5강\스타트링크.cpp">
       <Filter>소스 파일\2019하반기\BarkingDog\5강</Filter>
     </ClCompile>
+    <ClCompile Include="BarkingDog\5강\스타트링크(최적화).cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\5강</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
