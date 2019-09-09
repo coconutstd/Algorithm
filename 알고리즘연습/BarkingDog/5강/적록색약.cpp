@@ -107,7 +107,7 @@ int main()
 		for (int j = 0; j < N; ++j)
 		{
 			char t;
-			cin >> t;
+			cin >> t; 
 			if (t == 'R')
 			{
 				Map[i][j] = 0;
