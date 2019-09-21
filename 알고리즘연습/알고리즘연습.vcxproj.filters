@@ -61,6 +61,9 @@
     <Filter Include="소스 파일\2019하반기\BarkingDog\5강">
       <UniqueIdentifier>{7e04449f-fa58-4bab-89c6-a4eea09c2e86}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\C++배우기51-100">
+      <UniqueIdentifier>{62e11272-d6a2-426f-bc86-bab94eca53af}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -332,6 +335,12 @@
     </ClCompile>
     <ClCompile Include="기타\케빈베이컨.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\5강\다리만들기.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="C++배우기51-100\완전제곱수.cpp">
+      <Filter>소스 파일\2019하반기\C++배우기51-100</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
