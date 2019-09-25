@@ -336,11 +336,14 @@
     <ClCompile Include="기타\케빈베이컨.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
     </ClCompile>
-    <ClCompile Include="BarkingDog\5강\다리만들기.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="C++배우기51-100\완전제곱수.cpp">
       <Filter>소스 파일\2019하반기\C++배우기51-100</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\digitalNumber.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\5강\다리만들기.cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\5강</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
