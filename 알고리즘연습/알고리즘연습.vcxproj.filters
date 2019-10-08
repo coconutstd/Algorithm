@@ -348,6 +348,9 @@
     <ClCompile Include="기타\swap.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
     </ClCompile>
+    <ClCompile Include="기타\LicenseKeyFormatting.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
