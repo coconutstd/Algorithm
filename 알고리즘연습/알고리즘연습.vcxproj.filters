@@ -354,6 +354,24 @@
     <ClCompile Include="기타\StringTokenizer.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
     </ClCompile>
+    <ClCompile Include="기타\PlusOne.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\FindAnagramsMapping.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\LongestSubMostTwoDist.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\MaxSubArray.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\UniqueEmail.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="기타\다리만들기2.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
