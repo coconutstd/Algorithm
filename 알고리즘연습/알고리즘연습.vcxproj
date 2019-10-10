@@ -367,7 +367,10 @@
     <ClCompile Include="기타\FindAnagramsMapping.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="기타\JewelsAndStones.cpp" />
+    <ClCompile Include="기타\GroupAnagrams.cpp" />
+    <ClCompile Include="기타\JewelsAndStones.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="기타\LicenseKeyFormatting.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
