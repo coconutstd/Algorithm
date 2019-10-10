@@ -375,6 +375,9 @@
     <ClCompile Include="기타\최소스패닝트리.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
     </ClCompile>
+    <ClCompile Include="기타\JewelsAndStones.cpp">
+      <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">

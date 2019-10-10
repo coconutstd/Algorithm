@@ -1,3 +1,8 @@
+/*
+ 백준 1197 : 최소 스패닝 트리
+ union-find 기법을 이용해 최소 신장트리를 구함 
+*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -29,6 +34,8 @@ void merge(int x, int y) {
 int N, E;
 
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
 	cin >> N >> E;
 	vector<Node> data(E);
 	for (int i = 0; i < E; i++) {
@@ -45,8 +52,5 @@ int main() {
 			merge(data[i].v, data[i].e);
 		}
 	}
-
 	cout << answer;
-
-	
 }
