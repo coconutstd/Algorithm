@@ -525,6 +525,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="프로그래머스\BFS&amp;DFS\네트워크bfs.cpp" />
+    <ClCompile Include="프로그래머스\BFS&amp;DFS\단어변환.cpp" />
     <ClCompile Include="해싱\전화번호목롤.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
