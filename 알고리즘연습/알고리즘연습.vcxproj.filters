@@ -64,6 +64,12 @@
     <Filter Include="소스 파일\2019하반기\C++배우기51-100">
       <UniqueIdentifier>{62e11272-d6a2-426f-bc86-bab94eca53af}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\프로그래머스">
+      <UniqueIdentifier>{b1d31c1a-d1e7-403e-9068-7f5090190e62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2019하반기\프로그래머스\DFS&amp;BFS">
+      <UniqueIdentifier>{888c13cf-748e-45d5-8747-f2cb6c227e0e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -380,6 +386,9 @@
     </ClCompile>
     <ClCompile Include="기타\GroupAnagrams.cpp">
       <Filter>소스 파일\2019하반기\기타</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스\BFS&amp;DFS\네트워크bfs.cpp">
+      <Filter>소스 파일\2019하반기\프로그래머스\DFS&amp;BFS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
