@@ -420,6 +420,12 @@
     <ClCompile Include="인프런\창의적문제해결\합이같은부분집합.cpp">
       <Filter>소스 파일\2019하반기\인프런\창의적문제해결</Filter>
     </ClCompile>
+    <ClCompile Include="인프런\창의적문제해결\두배열합치기.cpp">
+      <Filter>소스 파일\2019하반기\인프런\창의적문제해결</Filter>
+    </ClCompile>
+    <ClCompile Include="인프런\창의적문제해결\병합정렬.cpp">
+      <Filter>소스 파일\2019하반기\인프런\창의적문제해결</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
