@@ -5,6 +5,7 @@
 
  next_permutation으로 두 그룹으로 나누는 모든 경우를 만들고 dfs를 통해 이어져 있는지 확인
 
+ 참고 : https://it-earth.tistory.com/116
 */
 #include <iostream>
 #include <vector>

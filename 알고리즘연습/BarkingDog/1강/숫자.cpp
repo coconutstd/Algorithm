@@ -4,7 +4,7 @@ typedef long long int ll;
 
 int main() {
 	ll a, b;
-	scanf("%lld %lld", &a, &b);
+	scanf_s_s("%lld %lld", &a, &b);
 	if (a > b) {
 		printf("%lld\n", a - b - 1);
 		for (ll i = b + 1; i < a; i++) {

@@ -2,7 +2,7 @@
 
 int main() {
 	int t;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	int f_m = 0, o_m= 0 , t_s=0;
 	int div;
 	div = t / 300;

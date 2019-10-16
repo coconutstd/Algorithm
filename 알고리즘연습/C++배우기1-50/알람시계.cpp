@@ -2,7 +2,7 @@
 
 int main() {
 	int h, m;
-	scanf("%d %d", &h, &m);
+	scanf_s_s("%d %d", &h, &m);
 	if (m - 45 < 0) {
 		m = 60 + m - 45;
 		if (h - 1 < 0) {

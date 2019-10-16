@@ -4,7 +4,7 @@ bool num[101];
 
 int main() {
 	int a,size=0,ans=0;
-	while (scanf("%d", &a)) {
+	while (scanf_s_s("%d", &a)) {
 		if (a == 0) {
 			ans = 0;
 			for (int i = 1; i < 101; i++) {

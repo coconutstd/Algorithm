@@ -2,10 +2,10 @@
 
 int main() {
 	int t;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	while (t--) {
 		int a, b, c;
-		scanf("%d %d %d", &a, &b, &c);
+		scanf_s_s("%d %d %d", &a, &b, &c);
 		if (b - c > a) {
 			printf("advertise\n");
 		}

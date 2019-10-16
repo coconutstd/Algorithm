@@ -5,10 +5,10 @@ using namespace std;
 int main() {
 	int a, b, c;
 	int t,m=-1;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	while (t--) {
 		int sum = 0;
-		scanf("%d %d %d", &a, &b, &c);
+		scanf_s_s("%d %d %d", &a, &b, &c);
 		if (a == b && b == c) {
 			sum = 10000 + a * 1000;
 		}

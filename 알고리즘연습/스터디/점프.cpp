@@ -16,10 +16,10 @@ long long dfs(int row, int col) {
 }
 
 int main() {
-	scanf("%d", &n);
+	scanf_s_s("%d", &n);
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
-			scanf("%d", &map[i][j]);
+			scanf_s_s("%d", &map[i][j]);
 		}
 	}
 

@@ -13,10 +13,10 @@ const int dc[] = { -1,1,0,0 };
 
 
 int main() {
-	scanf("%d", &k);
+	scanf_s_s("%d", &k);
 	for (int i = 1; i <= k; i++) {
 		for (int j = 1; j <= k; j++) {
-			scanf("%d", &map[i][j]);
+			scanf_s_s("%d", &map[i][j]);
 		}
 	}
 

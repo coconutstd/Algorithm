@@ -27,7 +27,7 @@ double Math::calc(string s) {
 
 int main() {
 	int t;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	cin.ignore();
 	Math math;
 	while (t--) {

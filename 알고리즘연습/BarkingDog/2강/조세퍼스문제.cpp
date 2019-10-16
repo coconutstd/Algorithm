@@ -6,7 +6,7 @@ using namespace std;
 int main() {
 	int n, k;
 
-	scanf("%d %d", &n, &k);
+	scanf_s_s("%d %d", &n, &k);
 	list<int> jose;
 	for (int i = 1; i <= n; i++) {
 		jose.push_back(i);

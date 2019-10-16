@@ -3,7 +3,7 @@ int arr[26];
 int main() {
 	char x;
 	while (true) {
-		scanf("%c", &x);
+		scanf_s_s("%c", &x);
 		if (x == '\n') {
 			break;
 		}

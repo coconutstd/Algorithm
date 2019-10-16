@@ -5,7 +5,7 @@ using namespace std;
 
 int main() {
 	int a, b, c;
-	scanf("%d %d %d", &a, &b, &c);
+	scanf_s_s("%d %d %d", &a, &b, &c);
 	if (a == b && a == c) {
 		printf("%d\n", 10000 + a * 1000);
 	}

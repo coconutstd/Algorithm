@@ -5,10 +5,10 @@ int row, col;
 int arr[1001][1001];
 int dp[1001][1001];
 int main() {
-	scanf("%d %d", &row, &col);
+	scanf_s_s("%d %d", &row, &col);
 	for (int i = 1; i <= row; i++) {
 		for (int j = 1; j <= col; j++) {
-			scanf("%d", &arr[i][j]);
+			scanf_s_s("%d", &arr[i][j]);
 		}
 	}
 	dp[1][1] = arr[1][1];

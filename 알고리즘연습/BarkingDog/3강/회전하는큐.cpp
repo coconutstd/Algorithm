@@ -33,14 +33,14 @@ int minOperation(deque<int>& dq, int num) {
 int main() {
 	deque<int> dq;
 	int n,m,ans=0;
-	scanf("%d %d", &n,&m);
+	scanf_s_s("%d %d", &n,&m);
 	for (int i = 1; i <= n; i++) {
 		dq.push_back(i);
 	}
 
 	for (int i = 0; i < m; i++) {
 		int num;
-		scanf("%d", &num);
+		scanf_s_s("%d", &num);
 		if (num == dq.front()) {
 			dq.pop_front();
 		}

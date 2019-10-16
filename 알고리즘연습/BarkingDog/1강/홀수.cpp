@@ -3,7 +3,7 @@
 int main() {
 	int arr[7];
 	for (int i = 0; i < 7; i++) {
-		scanf("%d", &arr[i]);
+		scanf_s_s("%d", &arr[i]);
 	}
 	int sum = 0, min = 100; 
 	for (int i = 0; i < 7; i++) {

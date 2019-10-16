@@ -32,7 +32,7 @@ void Jose::startGame() {
 int main() {
 
 	int n, k;
-	scanf("%d %d", &n, &k);
+	scanf_s_s("%d %d", &n, &k);
 	Jose jose(n, k);
 	jose.startGame();
 	

@@ -2,10 +2,10 @@
 
 int main() {
 	int t;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	while (t--) {
 		int a;
-		scanf("%d", &a);
+		scanf_s_s("%d", &a);
 		int div = 9999, mod = 0, cnt = 0;
 		while (1) {	
 			div = a / 2;

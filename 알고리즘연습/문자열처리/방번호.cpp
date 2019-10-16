@@ -5,7 +5,7 @@ int a[10];
 
 int main() {
 	int s;
-	scanf("%d", &s);
+	scanf_s_s("%d", &s);
 	int div = s, mod = 0;
 	while (1) {
 		mod = div % 10;

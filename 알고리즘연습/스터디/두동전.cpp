@@ -19,11 +19,11 @@ const int dy[] = { -1,1,0,0 };
 
 int main() {
 	int cnt = 0;
-	scanf("%d %d", &n, &m);
+	scanf_s_s("%d %d", &n, &m);
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < m; j++) {
 			char c;
-			scanf("%c", &c);
+			scanf_s_s("%c", &c);
 			if (c == '\n') { j--; continue; }
 			arr[i][j] = c;
 			if (c == 'o') {

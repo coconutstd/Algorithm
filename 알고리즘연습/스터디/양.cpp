@@ -48,10 +48,10 @@ info bfs(pair<int, int> start) {
 }
 
 int main() {
-	scanf("%d %d", &r, &c);
+	scanf_s_s("%d %d", &r, &c);
 	for (int i = 1; i <= r; i++) {
 		for (int j = 1; j <= c; j++) {
-			char c; scanf("%c", &c);
+			char c; scanf_s_s("%c", &c);
 			if (c == '\n') {j--;continue;}
 			map[i][j] = c;
 		}

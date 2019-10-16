@@ -43,7 +43,7 @@ int bfs(vector<int>& v) {
 
 int main() {
 	int a, b, c;
-	scanf("%d %d %d", &a, &b, &c);
+	scanf_s_s("%d %d %d", &a, &b, &c);
 	vector<int> orig;
 	orig.push_back(a); orig.push_back(b); orig.push_back(c);
 	printf("%d\n", bfs(orig));

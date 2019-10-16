@@ -8,12 +8,12 @@ int visited[2][200001];
 int n, k;
 
 int main() {
-	scanf("%d %d", &n, &k);
+	scanf_s_s("%d %d", &n, &k);
 	for (int i = 1; i <= n; i++) {
-		scanf("%1d", &arr[0][i]);
+		scanf_s_s("%1d", &arr[0][i]);
 	}
 	for (int i = 1; i <= n; i++) {
-		scanf("%1d", &arr[1][i]);
+		scanf_s_s("%1d", &arr[1][i]);
 	}
 	for (int i = n+1; i <= 200000; i++) {
 		arr[0][i] = arr[1][i] = 1;

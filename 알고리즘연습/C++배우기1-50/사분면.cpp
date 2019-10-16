@@ -3,9 +3,9 @@ int arr[5];
 
 int main() {
 	int n,a,b;
-	scanf("%d", &n);
+	scanf_s_s("%d", &n);
 	for (int i = 0; i < n; i++) {
-		scanf("%d %d", &a, &b);
+		scanf_s_s("%d %d", &a, &b);
 		if (a == 0 || b == 0) { arr[4]++; }
 		else if (a > 0 && b > 0) { arr[0]++; }
 		else if (a < 0 && b > 0) { arr[1]++; }

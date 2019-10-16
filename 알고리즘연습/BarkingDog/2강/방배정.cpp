@@ -4,10 +4,10 @@ int arr[2][7];
 
 int main() {
 	int n, k;
-	scanf("%d %d", &n, &k);
+	scanf_s_s("%d %d", &n, &k);
 	for (int i = 0; i < n; i++) {
 		int s, r;
-		scanf("%d %d", &s, &r); 
+		scanf_s_s("%d %d", &s, &r); 
 		arr[s][r]++;
 	}
 

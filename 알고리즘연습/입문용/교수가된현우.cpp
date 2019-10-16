@@ -3,10 +3,10 @@
 int main() {
 
 	int t;
-	scanf("%d", &t);
+	scanf_s_s("%d", &t);
 	while (t--) {
 		int n,ans = 0;
-		scanf("%d", &n);
+		scanf_s_s("%d", &n);
 		for (int i = 5; i <= n; i *= 5) {
 			ans += n / i;
 		}

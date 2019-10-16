@@ -3,7 +3,7 @@
 typedef long long int lld;
 int main() {
 	lld s;
-	scanf("%lld", &s);
+	scanf_s_s("%lld", &s);
 	lld d = sqrt(s*2);
 	lld sum1 = (d - 1) * d;
 	lld sum2 = d * (d + 1);

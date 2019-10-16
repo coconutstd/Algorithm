@@ -3,7 +3,7 @@
 int main() {
 	int x[3], y[3];
 	for (int i = 0; i < 3; i++) {
-		scanf("%d %d", &x[i], &y[i]);
+		scanf_s_s("%d %d", &x[i], &y[i]);
 	}
 	int n_x, n_y;
 	if (x[0] == x[1]) {

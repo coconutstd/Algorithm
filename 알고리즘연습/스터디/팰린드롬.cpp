@@ -3,9 +3,9 @@ int arr[2001];
 int dp[2001][2001];
 int main() {
 	int n, m;
-	scanf("%d", &n);
+	scanf_s_s("%d", &n);
 	for (int i = 1; i <= n; i++) {
-		scanf("%d", &arr[i]);
+		scanf_s_s("%d", &arr[i]);
 	}
 
 	for (int i = 1; i <= n; i++) { dp[i][i] = 1; }
@@ -23,10 +23,10 @@ int main() {
 		}
 	}
 
-	scanf("%d", &m);
+	scanf_s_s("%d", &m);
 	for (int i = 0; i < m; i++) {
 		int s, e;
-		scanf("%d %d", &s, &e);
+		scanf_s_s("%d %d", &s, &e);
 		printf("%d\n", dp[s][e]);
 	}
 	

@@ -2,7 +2,7 @@
 
 int main() {
 	int year;
-	scanf("%d", &year);
+	scanf_s_s("%d", &year);
 	if (year % 400 == 0) {
 		printf("1\n");
 		return 0;

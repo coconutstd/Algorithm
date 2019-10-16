@@ -41,11 +41,11 @@ void Sequence::print() {
 
 int main() {
 	int n;
-	scanf("%d", &n);
+	scanf_s_s("%d", &n);
 	vector<int> data;
 	for (int i = 0; i < n; i++) {
 		int t;
-		scanf("%d", &t);
+		scanf_s_s("%d", &t);
 		data.push_back(t);
 	}
 	Sequence seq;
