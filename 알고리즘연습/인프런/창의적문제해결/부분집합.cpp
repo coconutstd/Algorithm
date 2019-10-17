@@ -1,9 +1,10 @@
 #include <stdio.h>
 
-int n;
+int n,cnt;
 int ch[11];
 void dfs(int v) {
 	if (v == n + 1) {
+		cnt++;
 		for (int i = 1; i <= n; i++) {
 			if (ch[i] == 1)printf("%d ", i);
 		}
@@ -20,5 +21,6 @@ void dfs(int v) {
 int main() {
 	scanf_s("%d", &n);
 	dfs(1);
+	printf("%d\n", cnt);
 	return 0;
 }
