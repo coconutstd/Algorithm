@@ -456,6 +456,9 @@
     <ClCompile Include="swea\sum.cpp">
       <Filter>소스 파일\2019하반기\swea</Filter>
     </ClCompile>
+    <ClCompile Include="swea\스도쿠검증.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
