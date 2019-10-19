@@ -462,6 +462,12 @@
     <ClCompile Include="swea\달팽이배열.cpp">
       <Filter>소스 파일\2019하반기\swea</Filter>
     </ClCompile>
+    <ClCompile Include="swea\농작물수확.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="swea\숫자배열회전.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
