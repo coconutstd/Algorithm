@@ -468,6 +468,9 @@
     <ClCompile Include="swea\숫자배열회전.cpp">
       <Filter>소스 파일\2019하반기\swea</Filter>
     </ClCompile>
+    <ClCompile Include="swea\ladder.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
