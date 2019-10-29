@@ -79,6 +79,9 @@
     <Filter Include="소스 파일\2019하반기\정보올림피아드">
       <UniqueIdentifier>{5ae0b8af-16e0-45bd-8b6e-49931b0a371f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\프로그래머스\정렬">
+      <UniqueIdentifier>{61a0d976-6519-436b-ac01-c0a4d42c2741}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -470,6 +473,9 @@
     </ClCompile>
     <ClCompile Include="swea\ladder.cpp">
       <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="프로그래머스\정렬\가장큰수.cpp">
+      <Filter>소스 파일\2019하반기\프로그래머스\정렬</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
