@@ -477,6 +477,9 @@
     <ClCompile Include="프로그래머스\정렬\가장큰수.cpp">
       <Filter>소스 파일\2019하반기\프로그래머스\정렬</Filter>
     </ClCompile>
+    <ClCompile Include="BarkingDog\7강\n과m(1).cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
