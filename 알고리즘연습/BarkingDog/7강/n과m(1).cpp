@@ -1,30 +1,28 @@
 #include <iostream>
-#include <algorithm>
-#include <vector>
 
 using namespace std;
+int n, m;
+int a[9], check[9];
+
+void go(int index, int n, int m) {
+	if (index == m) {
+		for (int i = 0; i < m; i++) {
+			cout << a[i] << " ";
+		}
+		cout << "\n";
+		return;
+	}
+	for (int i = 1; i <= n; i++) {
+		if (check[i]) continue;
+		check[i] = 1;
+		a[index] = i;
+		go(index + 1, n, m);
+		check[i] = 0;
+	}
+}
 
 int main() {
-	int n, m;
 	cin >> n >> m;
-	vector<int> a, ind;
-	for (int i = 1; i <= n; i++) {
-		a.push_back(i);
-	}
-	for (int i = 0; i < m; i++) {
-		ind.push_back(0);
-	}
-	for (int i = 0; i < n - m; i++) {
-		ind.push_back(1);
-	}
-	sort(ind.begin(), ind.end());
-	do
-	{
-		for (int i = 0; i < n; i++) {
-			if (ind[i] == 0) {
-				cout << a[i] << " ";
-			}
-		}
-		cout << endl;
-	} while (next_permutation(ind.begin(),ind.end()));
+	go(0, n, m);
+	return 0;
 }
