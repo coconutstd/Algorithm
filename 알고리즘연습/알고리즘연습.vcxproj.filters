@@ -82,6 +82,9 @@
     <Filter Include="소스 파일\2019하반기\프로그래머스\정렬">
       <UniqueIdentifier>{61a0d976-6519-436b-ac01-c0a4d42c2741}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\BarkingDog\7강">
+      <UniqueIdentifier>{0a192206-5edf-4cbc-849d-19fda904fc10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -478,7 +481,10 @@
       <Filter>소스 파일\2019하반기\프로그래머스\정렬</Filter>
     </ClCompile>
     <ClCompile Include="BarkingDog\7강\n과m(1).cpp">
-      <Filter>소스 파일\2019하반기\BarkingDog</Filter>
+      <Filter>소스 파일\2019하반기\BarkingDog\7강</Filter>
+    </ClCompile>
+    <ClCompile Include="BarkingDog\7강\n과m(2).cpp">
+      <Filter>소스 파일\2019하반기\BarkingDog\7강</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
