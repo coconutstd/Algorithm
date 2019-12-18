@@ -85,6 +85,9 @@
     <Filter Include="소스 파일\2019하반기\BarkingDog\7강">
       <UniqueIdentifier>{0a192206-5edf-4cbc-849d-19fda904fc10}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\2019하반기\sds">
+      <UniqueIdentifier>{6c22bcd4-75d1-4b13-88ab-9721479c5b17}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="입문용\Doubles.cpp">
@@ -485,6 +488,12 @@
     </ClCompile>
     <ClCompile Include="BarkingDog\7강\n과m(2).cpp">
       <Filter>소스 파일\2019하반기\BarkingDog\7강</Filter>
+    </ClCompile>
+    <ClCompile Include="보급로.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
+    <ClCompile Include="sds\큐브회전.cpp">
+      <Filter>소스 파일\2019하반기\sds</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
