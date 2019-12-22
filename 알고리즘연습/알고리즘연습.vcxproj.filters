@@ -495,6 +495,9 @@
     <ClCompile Include="sds\큐브회전.cpp">
       <Filter>소스 파일\2019하반기\sds</Filter>
     </ClCompile>
+    <ClCompile Include="sds\스도쿠.cpp">
+      <Filter>소스 파일\2019하반기\sds</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
