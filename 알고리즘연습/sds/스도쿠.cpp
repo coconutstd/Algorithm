@@ -46,20 +46,12 @@ bool colValid(int i, int j) {
 }
 
 bool isValid(int i, int j) {
-	if (!square(i, j) && !rowValid(i, j) && !colValid(i, j)) {
+	if (!square(i, j) || !rowValid(i, j) || !colValid(i, j)) {
 		coord.push_back(make_pair(i, j));
 		return false;
 	}
 	return true;
 }
-
-bool correctValid(int i, int j) {
-	if (square(i, j) && colValid(i, j) && rowValid(i, j)) {
-		return true;
-	}
-	else return false;
-}
-
 
 
 int main() {
@@ -82,45 +74,29 @@ int main() {
 			}
 		}
 
-		if (k == 1) {
-			for (int i = 1; i <= 9; i++) {
-				sudoku[coord[0].first][coord[0].second] = i;
-				if (correctValid(coord[0].first, coord[0].second)) {
-					ans.push_back(make_tuple(coord[0].first, coord[0].second, sudoku[coord[0].first][coord[0].second]));
-				}
-
-			}
+		for (int i = 0; i < coord.size(); i++) {
+			cout << coord[i].first+1 << " " << coord[i].second+1 << "\n";
 		}
-		else if (coord.size() == 2 && k == 2) {
-			bool check = false;
-			for (int i = 1; i <= 9; i++) {
-				for (int j = 1; j <= 9; j++) {
-					sudoku[coord[0].first][coord[0].second] = i;
-					sudoku[coord[1].first][coord[1].second] = j;
-					if (correctValid(coord[0].first, coord[0].second) && correctValid(coord[1].first, coord[1].second)) {
-						ans.push_back(make_tuple(coord[0].first, coord[0].second, sudoku[coord[0].first][coord[0].second]));
-						ans.push_back(make_tuple(coord[1].first, coord[1].second, sudoku[coord[1].first][coord[1].second]));
-						check = true;
-						break;
-					}
-				}
-				if (check) break;
-			}
-		}
-		else if (k == 3) {
-			for (int i = 1; i <= 9; i++) {
-				for (int j = 1; j <= 9; j++) {
-					for (int l = 1; l <= 9; l++) {
-						sudoku[coord[0].first][coord[0].second] = i;
-						sudoku[coord[1].first][coord[1].second] = j;
-						sudoku[coord[2].first][coord[2].second] = l;
-						if (correctValid(coord[0].first, coord[0].second) && correctValid(coord[1].first, coord[1].second) && correctValid(coord[2].first, coord[2].second)) {
-							ans.push_back(make_tuple(coord[0].first, coord[0].second, sudoku[coord[0].first][coord[0].second]));
-							ans.push_back(make_tuple(coord[1].first, coord[1].second, sudoku[coord[1].first][coord[1].second]));
-							ans.push_back(make_tuple(coord[2].first, coord[2].second, sudoku[coord[2].first][coord[2].second]));
-						}
-					}
 
+		for (int i = 0; i < coord.size(); i++) {
+			int check[3][10] = { {0,} };
+			for (int j = 0; j < 9; j++) {
+				check[0][sudoku[coord[i].first][i]]++;
+			}
+			for (int j = 0; j < 9; j++) {
+				check[1][sudoku[j][coord[i].second]]++;
+			}
+			int row = 3 * (coord[i].first / 3);
+			int col = 3 * (coord[i].second / 3);
+			for (int r = row; r < row + 3; r++) {
+				for (int c = col; c < col + 3; c++) {
+					check[2][sudoku[r][c]]++;
+				}
+			}
+
+			for (int l = 1; l <= 9; l++) {
+				if (check[0][l] == 0 && check[1][l] == 0 && check[2][l] == 0) {
+					ans.push_back(make_tuple(coord[i].first, coord[i].second, l));
 				}
 			}
 		}

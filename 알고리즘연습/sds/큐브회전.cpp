@@ -2,38 +2,7 @@
 #include <vector>
 using namespace std;
 int cube[6][3][3];
-//int cube[6][3][3] = {
-//	{
-//		{1,2,3},
-//		{4,5,6},
-//		{7,8,9}
-//	},
-//	{
-//		{10,11,12},
-//		{13,14,15},
-//		{16,17,18}
-//	},
-//	{
-//		{19,20,21},
-//		{22,23,24},
-//		{25,26,27}
-//	},
-//	{
-//		{34,35,36},
-//		{31,32,33},
-//		{28,29,30}
-//	},
-//	{
-//		{37,38,39},
-//		{40,41,42},
-//		{43,44,45}
-//	},
-//	{
-//		{46,47,48},
-//		{49,50,51},
-//		{52,53,54}
-//	}
-//};
+
 
 void rotate(int c) {
 	switch (c)
@@ -311,6 +280,18 @@ void rotate(int c) {
 		int temp[3] = { 0, };
 		int temp2[3] = { cube[order[0]][1][0],cube[order[0]][1][1], cube[order[0]][1][2] };
 		for (int i = 0; i < 4; i++) {
+			if (order[i + 1] == 3) {
+				temp[0] = cube[order[i + 1]][1][2];
+				temp[1] = cube[order[i + 1]][1][1];
+				temp[2] = cube[order[i + 1]][1][0];
+				cube[order[i + 1]][1][2] = temp2[0];
+				cube[order[i + 1]][1][1] = temp2[1];
+				cube[order[i + 1]][1][0] = temp2[2];
+				temp2[0] = temp[0];
+				temp2[1] = temp[1];
+				temp2[2] = temp[2];
+				continue;
+			}
 			temp[0] = cube[order[i + 1]][1][0];
 			temp[1] = cube[order[i + 1]][1][1];
 			temp[2] = cube[order[i + 1]][1][2];
@@ -439,6 +420,18 @@ void rotate(int c) {
 		int temp[3] = { 0, };
 		int temp2[3] = { cube[order[0]][1][0],cube[order[0]][1][1], cube[order[0]][1][2] };
 		for (int i = 0; i < 4; i++) {
+			if (order[i + 1] == 3) {
+				temp[0] = cube[order[i + 1]][1][2];
+				temp[1] = cube[order[i + 1]][1][1];
+				temp[2] = cube[order[i + 1]][1][0];
+				cube[order[i + 1]][1][2] = temp2[0];
+				cube[order[i + 1]][1][1] = temp2[1];
+				cube[order[i + 1]][1][0] = temp2[2];
+				temp2[0] = temp[0];
+				temp2[1] = temp[1];
+				temp2[2] = temp[2];
+				continue;
+			}
 			temp[0] = cube[order[i + 1]][1][0];
 			temp[1] = cube[order[i + 1]][1][1];
 			temp[2] = cube[order[i + 1]][1][2];
