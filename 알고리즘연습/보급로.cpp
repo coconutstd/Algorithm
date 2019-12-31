@@ -25,7 +25,7 @@ void dfs(int cost, int x, int y, int route) {
 		if (nx >= 0 && nx < n && ny >= 0 && ny < n) {
 			dfs(cost + map[nx][ny], nx, ny, route + 1);
 		}
-		
+
 	}
 
 }
@@ -45,5 +45,5 @@ int main() {
 		dfs(0, 0, 0, 0);
 		printf("#%d %d\n", t, min_val);
 	}
-	
+
 }
