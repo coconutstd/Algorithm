@@ -507,6 +507,9 @@
     <ClCompile Include="swea\러시아국기같은깃발.cpp">
       <Filter>소스 파일\2019하반기\swea</Filter>
     </ClCompile>
+    <ClCompile Include="swea\격자판의숫자이어붙이기.cpp">
+      <Filter>소스 파일\2019하반기\swea</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
