@@ -4,21 +4,19 @@
 
 using namespace std;
 
-int input[4][4];
+string input[4][4];
 set<string> numbers;
 int direction[4][2] = { {0,1}, {-1,0}, {0,-1}, {1,0} };
 int number[7];
 
-void Dfs (int x, int y, int size)
+void Dfs (int x, int y, string number)
 {
-    if (size == 7)
+    if (number.length() == 7)
     {
-        string s;
-        for (int i = 0; i < 7; ++i)
+        if (!numbers.count(number))
         {
-            s.append(to_string(number[i]));
+            numbers.insert(number);
         }
-        numbers.insert(s);
     }
     else
     {
@@ -27,8 +25,7 @@ void Dfs (int x, int y, int size)
             int nx = x + direction[i][0];
             int ny = y + direction[i][1];
             if (nx < 0 || nx > 3 || ny < 0 || ny >3) continue;
-            number[size] = input[nx][ny];
-            Dfs(nx,ny,size+1);
+            Dfs(nx, ny, number + input[nx][ny]);
         }
     }
 }
@@ -51,8 +48,7 @@ int main()
 
         for (int i = 0; i < 4; ++i) {
             for (int j = 0; j < 4; ++j) {
-                number[0] = input[i][j];
-                Dfs(i,j,1);
+                Dfs(i,j,input[i][j]);
             }
         }
         
