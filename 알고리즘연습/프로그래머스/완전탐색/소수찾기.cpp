@@ -3,6 +3,7 @@
 #include <iostream>
 #include <memory.h>
 #include <cmath>
+#include <random>
 using namespace std;
 
 string global_numbers;
@@ -44,8 +45,7 @@ void Bruteforce (int m, string prime, int index)
         {
             return;
         }
-        else 
-        {
+        else {
             prime_array[stoi(prime)] = 1;
             if (primes[stoi(prime)] != 0) answer++;
         }
@@ -74,4 +74,25 @@ int solution (string numbers)
         Bruteforce(i, "", 0);
     }
     return answer;
+}
+
+int main () {
+
+    std::random_device rd;
+    std::mt19937 mersenne (rd ());
+    std::uniform_int_distribution<> len (1, 7);
+    std::uniform_int_distribution<> num (0, 9);
+
+    for (int i = 1; i <= 100; ++i) 
+    {
+        string tmp = "";
+        int l = len (mersenne);
+        for (int j = 0; j < l; ++j) 
+        {
+            tmp += to_string (num (mersenne));
+        }
+        cout << tmp << " : ";
+        cout << solution (tmp) << endl;
+    }
+    return 0;
 }
